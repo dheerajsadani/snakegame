@@ -169,10 +169,7 @@ int main()
         draw();
         input();
         Mainlogic();
-        for(m=0;m<10000;m++) {
-            for(n=0;n<10000;n++){
-             }
-          }
+        usleep(50000);
      }
      countail=0;
      flag=0;
